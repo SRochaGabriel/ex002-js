@@ -4,6 +4,8 @@ const turno = prompt('Olá! Por favor informe em qual turno você estuda. (Insir
 // Caso o aluno seja do turno matutino, diga "bom dia", caso seja do noturno, diga "boa noite"
 if (turno == 'M') {
     alert('Sendo assim, bom dia!');
-} else {
+} else if (turno == 'N') {
     alert('Nesse caso, boa noite!');
+} else {
+    alert('Valor inválido.');
 }
